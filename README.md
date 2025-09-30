@@ -28,3 +28,4 @@ project/
 Implementation placeholders are intentionally empty to keep focus on the architectural plan. Each module includes docstrings or comments directly quoting the assignment requirements to guide future development.
 # NLP-Query-Engine
 # NLP-Query-Engine
+# NLP-Query-Engine
