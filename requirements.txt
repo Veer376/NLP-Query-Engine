@@ -1,0 +1,7 @@
+# Placeholder dependency list for backend runtime.
+fastapi
+uvicorn[standard]
+pydantic
+sqlalchemy
+psycopg[binary]
+python-dotenv

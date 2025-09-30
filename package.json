@@ -1,0 +1,12 @@
+{
+  "name": "nlp-query-engine-monorepo",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev:backend": "cd backend && uv run fastapi dev main.py",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "npm-run-all --parallel dev:backend dev:frontend"
+  }
+}

@@ -1,0 +1,10 @@
+# Configuration placeholders for the NLP query engine backend.
+database:
+  connection_string: ${DATABASE_URL}
+  pool_size: 10
+embeddings:
+  model: "sentence-transformers/all-MiniLM-L6-v2"
+  batch_size: 32
+cache:
+  ttl_seconds: 300
+  max_size: 1000
